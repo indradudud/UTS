@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3DED97"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="30dp"
+        android:text="Register"
+        android:gravity="center"
+        />
+   <Button
+      android:id="@+id/btnSignup"
+       android:layout_width="130dp"
+       android:layout_height="wrap_content"
+      android:layout_marginTop="430dp"
+      android:layout_marginLeft="30dp"
+      android:text="Sign Up"
+      android:background="@drawable/round"
+      />
+   <Button
+       android:id="@+id/btnCancel"
+       android:layout_width="130dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="430dp"
+       android:layout_marginLeft="200dp"
+       android:text="Cancel"
+       android:background="@drawable/round"
+       />
+    <RelativeLayout
+        android:id="@+id/kotak"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/roundnama">
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp" />
+
+       <EditText
+           android:id="@+id/editname"
+           android:layout_width="170dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="90dp"
+           android:layout_marginTop="20dp"
+           android:textSize="20dp"
+           android:background="@drawable/kotak"/>
+       <EditText
+           android:id="@+id/editage"
+           android:layout_width="170dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="90dp"
+           android:layout_marginTop="70dp"
+           android:textSize="20dp"
+           android:background="@drawable/kotak"/>
+    </RelativeLayout>
+</RelativeLayout>
